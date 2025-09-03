@@ -30,7 +30,8 @@
 
 ## 📸 Preview
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-screenshot.png" alt="App Screenshot" width="600">
+  <img width="529" height="860" alt="{ABDB6788-0318-419F-A361-D584FAA352E4}" src="https://github.com/user-attachments/assets/c015ab35-7bad-4852-b22d-44c35e49eabe" />
+
 </p>
 
 ---
