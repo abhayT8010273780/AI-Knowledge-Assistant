@@ -3,61 +3,56 @@
  
  * Tech: Python, Streamlit, Gemini 2.5 Flash
 
-   # 🚀 PromptPilot: Gemini-Powered Answer Engine
+  <h1 align="center">✨ PromptPilot ✨</h1>
+<h3 align="center">🚀 Gemini-Powered Answer Engine built with Streamlit</h3>
 
-![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-red?logo=streamlit)  
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)  
-![Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?logo=google)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Google-Gemini-4285F4?logo=google" alt="Gemini">
+  <img src="https://img.shields.io/github/license/your-username/promptpilot" alt="License">
+</p>
 
-**PromptPilot** is an interactive **Q&A application** built with [Streamlit](https://streamlit.io/) and powered by **Google's Gemini 2.5 Flash** model.  
-Just type your question, and get an AI-generated answer instantly ⚡.
-
----
-
-## ✨ Features
-- 🔮 Ask anything — AI generates instant responses.
-- 🎨 Clean and interactive UI using **Streamlit**.
-- ⚡ Powered by **Gemini 2.5 Flash** for fast, intelligent answers.
-- 🔑 Secure API key integration.
+<p align="center">
+  PromptPilot is a sleek Q&A engine ⚡ powered by <b>Google Gemini 2.5 Flash</b>  
+  with an elegant UI built using <b>Streamlit</b>.
+</p>
 
 ---
 
-## 📂 Project Structure
-📦 promptpilot
-┣ 📜 app.py # Main Streamlit app
-┣ 📜 requirements.txt # Dependencies
-┗ 📜 README.md # Project documentation
-
+## 🎯 Features
+✅ Ask any question, get instant AI-generated answers  
+✅ Powered by **Gemini 2.5 Flash** — fast & smart  
+✅ Simple, minimal & interactive **Streamlit UI**  
+✅ Easy setup & ready to deploy 🚀  
 
 ---
 
-## 🛠️ Installation & Setup
+## 📸 Preview
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/your-screenshot.png" alt="App Screenshot" width="600">
+</p>
 
-1. **Clone this repository**
-   
-   git clone https://github.com/your-username/promptpilot.git
-   cd promptpilot
-* Create a virtual environment (optional but recommended)
+---
 
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/promptpilot.git
+cd promptpilot
+
+# 2. (Optional) Create virtual environment
 python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-Install dependencies
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
 
-
+# 3. Install dependencies
 pip install -r requirements.txt
-Set your Gemini API key
 
-Open app.py
-
-Replace with your Gemini API key:
-
-
+# 4. Add your Gemini API key in app.py
 genai.configure(api_key="YOUR_API_KEY")
-Run the app
 
-
-
-Copy code
+# 5. Run the app
 streamlit run app.py
 
