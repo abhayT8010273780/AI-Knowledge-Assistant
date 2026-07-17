@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDIsIw5HuHSpT39xmCh2QERN8Pey-JLWh0")
+genai.configure(api_key="Google_API_key")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 st.title("PromptPilot: Gemini-Powered Answer Engine")
